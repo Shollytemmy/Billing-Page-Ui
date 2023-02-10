@@ -8,8 +8,17 @@
   z-index: 6;
   position: relative;
   top: 6%;
+  border-radius: 30px;
   
   
+}
+.col-3{
+  width: 20%;
+  outline: 0px solid red;
+  margin-left: 0.1%;
+  height: 860px; 
+  background-color: #E5E5E5;
+  padding: 10px 10px;
 }
 
 .App{
@@ -30,5 +39,36 @@
   width: 276px;
   position: absolute;
   left: 8%;
-  border-radius: 30px;
+  border-radius: 46px;
+}
+
+/*profile*/
+
+.profile-links{
+  display: flex;
+  gap: 9px;
+  outline: 0px solid yellow;
+  
+}
+.top-profile{
+  outline: 0px solid green;
+  width: 55px;
+  height: 55px;
+  margin-left: 10px;
+}
+
+.bio{
+  outline: 0px solid red;
+}
+
+strong{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.mail{
+  font-weight: 400;
+  font-size: 14px;
+  lighting-color: 21px;
 }
