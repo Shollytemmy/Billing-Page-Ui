@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import { BillingPage } from './Components/BillingPage'
+import  BillingPage  from './Components/BillingPage'
 
 function App() {
   const [count, setCount] = useState(0)

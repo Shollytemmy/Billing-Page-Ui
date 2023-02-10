@@ -6,7 +6,7 @@ import {LockIcon} from './Atoms/LockIcon'
 
 import MessageIcon from './Atoms/MessageIcon'
 
-export const BillingPage = () => {
+ const BillingPage = () => {
   return (
     <section className='billing-page'>
         <aside className='side-bar col-3'>
@@ -24,23 +24,36 @@ export const BillingPage = () => {
 
                 <div className="contact-bio">
                     <div className="message">
-                        <GeralIcon /> <span>General</span>
+                        <a href="/">
+                            <GeralIcon /> <span>General</span>
+                        </a>
+                        
                     </div>
 
                     <div className="message">
-                        <LockIcon /> <span>PassWord</span>
+                        <a href="/">
+                            <LockIcon /> <span>PassWord</span>
+
+                        </a>
+                        
                     </div>
 
                     <div className="message">
-                        <MessageIcon /> <span>Message</span>
+                        <a href="/">
+                            <MessageIcon /> <span>Message</span>
+                        </a>
                     </div>
 
                     <div className="message">
-                        <BillingIcon /><span>Billing</span>
+                        <a href="/">
+                            <BillingIcon /><span>Billing</span>
+                        </a>
                     </div>
 
                     <div className="message">
-                        <AppIcon /><span>App</span>
+                        <a href="/">
+                            <AppIcon /><span>App</span>
+                        </a>
                     </div>
                 </div>
 
@@ -50,6 +63,11 @@ export const BillingPage = () => {
 
             
         </aside>
+
+        <h1>Billing</h1>
     </section>
   )
 }
+
+
+export default BillingPage
