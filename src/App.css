@@ -44,14 +44,18 @@
 
 /*profile*/
 
-.profile-links{
+.profile{
   display: flex;
+  outline: 1px solid red;
   gap: 9px;
-  outline: 0px solid yellow;
+}
+
+.profile-links{
+  
   
 }
 .top-profile{
-  outline: 0px solid green;
+  outline: 1px solid green;
   width: 55px;
   height: 55px;
   margin-left: 10px;
