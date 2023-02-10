@@ -10,6 +10,7 @@
   position: relative;
   top: 6%;
   border-radius: 30px;
+  gap: 30px;
   
   
 }
@@ -98,4 +99,21 @@ strong{
   color: red;
   border-left: 2px solid red;
 }
+
+
+/*MAIN*/
+  .main{
+    
+    flex: 1;
+  }
+
+  .table{
+    width: 617px;
+    outline: 1px solid yellow;
+  }
+
+  .flex{
+    display: flex;
+    
+  }
 
