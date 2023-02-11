@@ -6,6 +6,7 @@ import {LockIcon} from './Atoms/LockIcon'
 
 import MessageIcon from './Atoms/MessageIcon'
 import  History  from './History'
+import { PaymentMethod } from './PaymentMethod'
 
  const BillingPage = () => {
   return (
@@ -66,9 +67,15 @@ import  History  from './History'
         </aside>
 
         <div className='main'>
-            <h1>Billing</h1>
+            <p className='bill'>Billing</p>
             <History />
+
+            <div className='payment'>
+            <PaymentMethod />
         </div>
+        </div>
+
+        
     </section>
   )
 }

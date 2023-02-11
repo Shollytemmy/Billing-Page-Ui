@@ -35,29 +35,63 @@ import React from 'react'
     ]
   return (
     <div>
-        <h3>Order History</h3>
-        <h4>Manage billing information and view receips</h4>
+        <p className='order'>Order History</p>
+        <p className='receips'>Manage billing information and view receips</p>
 
         <div className='table'>
+            <header className='flex'>
+                <p>Date</p>
+                <p>Type</p>
+                <p>Receipt</p>
+            </header>
+
+            <main>
+                <p>Oct. 21, 2021</p>
+                <p>Pro Annual</p>
+                <p>Download</p>
+            </main>
+
+            <main>
+                <p>Oct. 21, 2021</p>
+                <p>Pro Annual</p>
+                <p>Download</p>
+            </main>
+            <main>
+                <p>July. 21, 2021</p>
+                <p>Pro Annual</p>
+                <p>Download</p>
+            </main>
+            <main>
+                <p>June. 21, 2021</p>
+                <p>Pro Annual</p>
+                <p>Download</p>
+            </main>
+
+            <p className='more'>Learn more</p>
            
-            {
-                order.map((history) => {
-                    return(
-                        <div className='flex'>
-                            <header>
-                                <p>{history.title}</p>
-                            </header>
-                            {/* <div>{history.date}</div> */}
-
-
-                            
-                        </div>
-                    )
-                })
-            }
+            
         </div>
     </div>
   )
 }
 
 export default History
+
+
+/**{
+                order.map((history) => {
+                    return(
+                        <div className=''>
+                            <header className="f">
+                                <p>{history.title}</p>
+                            </header>
+
+                            <div>{history.date} {history.type} {history.receipt}</div>
+                            
+
+
+                            
+                        </div>
+                    )
+                })
+            } */

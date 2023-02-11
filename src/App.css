@@ -80,7 +80,6 @@ strong{
 }
 
 .contact-bio{
-  outline: 0px solid red;
   margin-top: 15%;
 }
 
@@ -88,7 +87,6 @@ strong{
   text-decoration: none;
   color: black;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   gap: 9px;
   border: 1px solid transparent;
@@ -109,11 +107,87 @@ strong{
 
   .table{
     width: 617px;
-    outline: 1px solid yellow;
+    margin-bottom: 81px;
+   
   }
 
   .flex{
     display: flex;
+     justify-content: space-around;
+    
+
+    
     
   }
 
+  main{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .bill{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  main p:last-of-type{
+    border: 1px solid #E5E5E5;
+    padding: 5px 10px;
+  }
+
+  main:nth-child(3){
+    box-shadow: 7px 8px 5px #E5E5E5;
+
+  }
+
+  .more{
+    color: red;
+  }
+
+  .bottom-bank{
+    display: flex;
+    justify-content: space-around;
+  }
+  .bottom-bank p:last-of-type{
+    border: 1px solid #E5E5E5;
+    padding: 5px 10px;
+  }
+
+  .bank-icon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+.visa-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+}
+
+.payment-method{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.payment-text{
+  font-weight: 500;
+  font-size: 14px;
+  /* line-height: 21; */
+  color: #CBCBD9;
+}
+
+.order{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.receips{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #CBCBD9;
+}
